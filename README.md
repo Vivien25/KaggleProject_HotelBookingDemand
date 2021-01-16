@@ -5,5 +5,7 @@ The dataset is used in the project is Hotel Booking Demand  https://www.kaggle.c
 ## Objective
 The Objective of this project is to predict whether the hotel reservation will be cancelled. The response value is binary classification value composed of 0 and 1. 0 represents the hotel booking is not cancelled, 1 represents the hotel booking is cancelled.
 The audiences of the project are the hotels that want to allocate resources reasonably according to the cancellation rate of bookings during peak seasons, or the hotels that want to find out which factors cause booking cancelation. They can make improvements to these factors.
-## Data Mining Approaches
-The data mining approaches will be used in the project: penalized logistic regression (ridge regression) model and the random forest model. There are four reasons for selecting these two methods: 1. The response variable is a categorical variable. 2. There are categorical and numerical predictors variable.  3. The two methods help avoid overfitting. 4. The most influential predictor in the model can be found. 
+## Model Selection
+The algorithms used in the project are Support Vector Machines (SVM) and the Artificial Neural Networks (ANN). There are five reasons for selecting these two algorithms: 1. The response variable is a categorical variable, SVM and ANN can be used for classification problems. 2. The size of the dataset is not large enough. 3. There are categorical and numerical predictors.  4. SVM and ANN have the ability to learn and model non-linear and complex relationships 5. Predictors importance can be computed. 
+## Model Assessment
+The double 10-fold cross validation method is used for model assessment. 
